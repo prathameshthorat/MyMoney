@@ -82,35 +82,35 @@ If we consider an investor who has invested in an equity fund, a debt/gilt fund,
 
  There are 5 input commands defined to separate out the actions. Your input format will start with either of these commands i.e ALLOCATE, SIP, CHANGE,   BALANCE, REBALANCE
 
- ALLOCATE
+ ###### ALLOCATE
 
  The ALLOCATE command receives the initial investment amounts for each fund.
 
  Format - ALLOCATE AMOUNT_EQUITY AMOUNT_DEBT AMOUNT_GOLD
  Example- ALLOCATE 6000 3000 1000 means that an amount of 6000, 3000 and 1000 is initially invested in equity, debt and gold fund respectively.
 
- SIP
+ ###### SIP
 
  The SIP command receives the investment amount on a monthly basis for each fund.
 
  Format - SIP AMOUNT_EQUITY AMOUNT_DEBT AMOUNT_GOLD
  Example - SIP 2000 1000 500 means a monthly payment of 2000, 1000 and 500 is done against each of equity, debt and gold funds respectivelty.
 
- CHANGE
+ ###### CHANGE
 
  The CHANGE command receives the monthly rate of change (growth or loss) for each fund type. A negative value represents a loss.
 
  Format - CHANGE AMOUNT_EQUITY AMOUNT_DEBT AMOUNT_GOLD MONTH
  Example - CHANGE 8.00% -3.00% 7.00% APRIL means in the month of April equity received a growth of 8%, debt has taken a loss by 3% and gold received a  growth of 7%.
 
- BALANCE
+ ###### BALANCE
 
  The BALANCE command receives a month name.
 
  Format - BALANCE MONTH
  Example - BALANCE APRIL means - print the balance for each fund as on April month.
 
- REBALANCE
+ ###### REBALANCE
 
  The REBALANCE command receives no additional inputs.
 
@@ -145,19 +145,19 @@ If we consider an investor who has invested in an equity fund, a debt/gilt fund,
    
    This is build using Node.js 
    
-   ** Executing the Application **
+   ###### Executing the Application
      
    1. npm install
    2. npm run start
 
    This would read a commands from /data/input.txt and would execute the commands accordingly.
    
-   ** Runing Test Cases **
+   ###### Runing Test Cases
    
    1. npm install
    2.  npm run test
    
-   ** linting the project  ***
+   ###### linting the project
    
    npm run lint
    
