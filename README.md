@@ -9,7 +9,7 @@ Portfolio rebalancing is an activity done to reduce the gains from one asset cla
 If we consider an investor who has invested in an equity fund, a debt/gilt fund, and gold, over the course of 5 years, with a desired weight of 60%, 30% and 10%, without rebalancing, the portfolio would look like this:
 
   -----------------------------------------------------------------------------------
- |                             |   Equity	   |   Debt	    |    Gold	   |    Total    |
+ |     ###################     |   Equity	   |   Debt	    |    Gold	   |    Total    |
   -----------------------------------------------------------------------------------
  |       Dec-05	               |  6,00,000	  |  3,00,000	 |   1,00,000 |	 10,00,000  |
   -----------------------------------------------------------------------------------
@@ -37,7 +37,7 @@ If we consider an investor who has invested in an equity fund, a debt/gilt fund,
   You need to design a system that will suggest actions to ensure that the desired allocation percentages are equal to the actual percentages invested.  The desired allocation percentage should be derived from the initial allocation made. If 5000, 2000, 3000 is initial allocation, then desired percentage is 50%, 20% and 30%. The rebalanced portfolio would look like this:
 
   --------------------------------------------------------------------------------
- |                             |  Equity	  |   Debt	   |    Gold	   |    Total    |
+ |    ###################      |  Equity	  |   Debt	   |    Gold	   |    Total    |
   --------------------------------------------------------------------------------
  |          Dec-05	            | 6,00,000	 | 3,00,000	 | 1,00,000	   | 10,00,000  |
   --------------------------------------------------------------------------------
